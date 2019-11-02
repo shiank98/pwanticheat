@@ -1,0 +1,11 @@
+C:\Users\shian\source\repos\Anticheat\Anticheat\obj\Debug\Anticheat.vbprojAssemblyReference.cache
+C:\Users\shian\source\repos\Anticheat\Anticheat\obj\Debug\Anticheat.vbproj.GenerateResource.cache
+C:\Users\shian\source\repos\Anticheat\Anticheat\bin\Debug\PWReforged.exe.config
+C:\Users\shian\source\repos\Anticheat\Anticheat\bin\Debug\PWReforged.exe
+C:\Users\shian\source\repos\Anticheat\Anticheat\bin\Debug\PWReforged.pdb
+C:\Users\shian\source\repos\Anticheat\Anticheat\bin\Debug\PWReforged.xml
+C:\Users\shian\source\repos\Anticheat\Anticheat\obj\Debug\PWReforged.PWReforged.resources
+C:\Users\shian\source\repos\Anticheat\Anticheat\obj\Debug\PWReforged.Resources.resources
+C:\Users\shian\source\repos\Anticheat\Anticheat\obj\Debug\PWReforged.exe
+C:\Users\shian\source\repos\Anticheat\Anticheat\obj\Debug\PWReforged.xml
+C:\Users\shian\source\repos\Anticheat\Anticheat\obj\Debug\PWReforged.pdb
