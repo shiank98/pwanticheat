@@ -6,11 +6,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{581ADEC3-A585-450D-8717-5F9B1AEEF70C}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>pwanticheat.PWReforged</StartupObject>
+    <StartupObject>pwanticheat.My.MyApplication</StartupObject>
     <RootNamespace>pwanticheat</RootNamespace>
     <AssemblyName>pwanticheat</AssemblyName>
     <FileAlignment>512</FileAlignment>
-    <MyType>Console</MyType>
+    <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>

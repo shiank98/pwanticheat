@@ -22,4 +22,16 @@ Public Class PWReforged
             Next
         End If
     End Sub
+
+    Private Sub Timer2_Tick(sender As Object, e As EventArgs) Handles Timer2.Tick
+        Dim p() As Process
+        p = Process.GetProcessesByName("elementclient")
+        If p.Count > 0 Then
+            ' Process is running
+        Else
+            ' Process is not running
+            Application.Exit()
+        End If
+    End Sub
+
 End Class

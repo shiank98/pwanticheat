@@ -23,7 +23,10 @@ Partial Class PWReforged
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(PWReforged))
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Timer2 = New System.Windows.Forms.Timer(Me.components)
         Me.SuspendLayout()
         '
         'Timer1
@@ -31,20 +34,38 @@ Partial Class PWReforged
         Me.Timer1.Enabled = True
         Me.Timer1.Interval = 500
         '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(55, 52)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(222, 17)
+        Me.Label1.TabIndex = 0
+        Me.Label1.Text = "PW Reforged Anticheat deployed."
+        '
+        'Timer2
+        '
+        Me.Timer2.Enabled = True
+        Me.Timer2.Interval = 500
+        '
         'PWReforged
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(148, 0)
+        Me.ClientSize = New System.Drawing.Size(342, 124)
         Me.ControlBox = False
+        Me.Controls.Add(Me.Label1)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "PWReforged"
-        Me.Opacity = 0R
         Me.ShowIcon = False
         Me.ShowInTaskbar = False
         Me.Text = "PW Reforged"
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 
     Friend WithEvents Timer1 As Timer
+    Friend WithEvents Label1 As Label
+    Friend WithEvents Timer2 As Timer
 End Class
